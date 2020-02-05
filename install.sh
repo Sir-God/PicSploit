@@ -109,7 +109,7 @@ if [ ! -e PicSploit ]; then
 echo -e ${G}"[+]${W} There is no internet connection :("
 exit
 fi
-		data
+		datos
 		;;
 	*)
 echo -e ${G}"[+]${W} invalid command : ${2}"
@@ -117,5 +117,5 @@ usage
 ;;
 esac
 else
-	data
+	datos
 fi
